@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+@theme {
+  --font-script: "Dancing Script", cursive;
+  --font-display: "Playfair Display", serif;
+  --font-body: "Poppins", sans-serif;
+
+  --color-forest-950: #0b2e22;
+  --color-forest-900: #0f3d2c;
+  --color-forest-800: #154a36;
+  --color-forest-700: #1d5c44;
+  --color-cream-50: #fdf9ef;
+  --color-cream-100: #f8efd9;
+  --color-cream-200: #f1e4c2;
+  --color-gold-400: #e0bd6b;
+  --color-gold-500: #d1a44a;
+  --color-gold-600: #b8863a;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: var(--color-cream-50);
+  color: var(--color-forest-900);
+}
+
+.font-script {
+  font-family: var(--font-script);
+}
+
+.font-display {
+  font-family: var(--font-display);
+}
+
+.bg-leaf-pattern {
+  background-image:
+    radial-gradient(circle at 10% 20%, rgba(224, 189, 107, 0.08), transparent 40%),
+    radial-gradient(circle at 90% 80%, rgba(224, 189, 107, 0.08), transparent 40%);
+}
