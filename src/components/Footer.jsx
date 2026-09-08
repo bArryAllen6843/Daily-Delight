@@ -1,4 +1,4 @@
-import { BUSINESS, whatsappLink } from "../config"
+import { BUSINESS, ORDER_URL } from "../config"
 
 export default function Footer() {
   return (
@@ -17,7 +17,7 @@ export default function Footer() {
             📷 {BUSINESS.instagram}
           </a>
           <a
-            href={whatsappLink("Hi! I'd like to know more about Daily Delight.")}
+            href={ORDER_URL}
             target="_blank"
             rel="noreferrer"
             className="rounded-full bg-gold-500 px-5 py-2 text-sm font-semibold text-forest-950 transition hover:bg-gold-400"

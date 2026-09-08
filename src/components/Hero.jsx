@@ -1,4 +1,4 @@
-import { BUSINESS, whatsappLink } from "../config"
+import { BUSINESS, ORDER_URL } from "../config"
 
 export default function Hero() {
   return (
@@ -31,7 +31,7 @@ export default function Hero() {
             See Today's Menu
           </a>
           <a
-            href={whatsappLink("Hi! I'd like to place an order with Daily Delight.")}
+            href={ORDER_URL}
             target="_blank"
             rel="noreferrer"
             className="rounded-full border border-gold-400/60 px-8 py-3 text-sm font-semibold uppercase tracking-wide text-cream-50 transition hover:border-gold-400 hover:bg-gold-400/10"

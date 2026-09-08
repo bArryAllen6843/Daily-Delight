@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react"
-import { BUSINESS, whatsappLink } from "../config"
+import { BUSINESS, ORDER_URL } from "../config"
 
 const LINKS = [
   { href: "#about", label: "About" },
@@ -43,7 +43,7 @@ export default function Navbar() {
             </a>
           ))}
           <a
-            href={whatsappLink("Hi! I'd like to know more about Daily Delight's menu.")}
+            href={ORDER_URL}
             target="_blank"
             rel="noreferrer"
             className="rounded-full bg-gold-500 px-5 py-2 text-sm font-semibold text-forest-950 shadow-md transition hover:bg-gold-400"
@@ -77,7 +77,7 @@ export default function Navbar() {
               </a>
             ))}
             <a
-              href={whatsappLink("Hi! I'd like to know more about Daily Delight's menu.")}
+              href={ORDER_URL}
               target="_blank"
               rel="noreferrer"
               className="w-fit rounded-full bg-gold-500 px-5 py-2 text-sm font-semibold text-forest-950"
